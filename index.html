@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Profile Finder</title>
+
+  <!-- Link External CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>GitHub Profile Finder</h2>
+
+    <input
+      type="text"
+      id="search"
+      placeholder="Enter GitHub username (e.g. octocat)"
+    />
+
+    <div class="loading" id="loading">Loading...</div>
+    <div class="error" id="error">User Not Found</div>
+
+    <div class="card" id="profileCard">
+      <img id="avatar" src="" alt="Avatar" />
+      <h3 id="name"></h3>
+      <p id="bio"></p>
+      <p><strong>Joined:</strong> <span id="joinDate"></span></p>
+      <a id="portfolio" href="#" target="_blank">Portfolio</a>
+    </div>
+  </div>
+
+  <!-- Link External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
