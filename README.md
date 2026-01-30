@@ -29,4 +29,4 @@ A simple web app to search GitHub users and view their profile details like avat
 
 ---
 
-## 📁 Project Structure
+
